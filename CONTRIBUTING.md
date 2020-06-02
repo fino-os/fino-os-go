@@ -1,11 +1,5 @@
 # Guidance on how to contribute
 
-> All contributions to this project will be released under the CC0 public domain
-> dedication. By submitting a pull request or filing a bug, issue, or
-> feature request, you are agreeing to comply with this waiver of copyright interest.
-> Details can be found in our [TERMS](TERMS.md) and [LICENSE](LICENSE).
-
-
 There are two primary ways to help:
  - Using the issue tracker, and
  - Changing the code-base.
@@ -30,15 +24,3 @@ unit tests that validate implemented features and the presence or lack of defect
 Additionally, the code should follow any stylistic and architectural guidelines
 prescribed by the project. In the absence of such guidelines, mimic the styles
 and patterns in the existing code-base.
-
-
-## Browser support
-
-We configure our build chain tools
-(typically [Autoprefixer](https://github.com/postcss/autoprefixer)
-and [Babel](https://babeljs.io))
-to support a reasonable set of backward compatibility with older browsers.
-
-Please read up on
-[our current browser support guidance](https://github.com/cfpb/development/blob/master/guides/browser-support.md)
-and follow it when contributing to this project.
